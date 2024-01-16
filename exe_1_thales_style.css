@@ -12,18 +12,29 @@ body {
     position: fixed;
     width: 100%;
     z-index:0;
+    border-style:solid;
+    border-color: whitesmoke;
 
   }
+
 
   .sticky{
     color:white;
     background-color: cadetblue;
-    position: sticky;
+    margin-top: 20px;
+    margin-right: 20px;
     z-index:1000;
     width:50px;
+    padding: 15px;
+    
+  }
+  .container{
+    text-align: center;
     display: flex;
-    box-sizing: content-box;
     justify-content: flex-end;
+    position: sticky;
+    
+    
   }
   #main-content {
     display: flex;
@@ -59,10 +70,17 @@ body {
     justify-content: center;
   }
 
-  #foot{
+  .foot{
+    text-align: center;
     background-color: blanchedalmond;
     color: black;
     display: flex;
-    justify-content: flex-end;
+   justify-content: center;
     box-sizing: border-box;
+    margin-left: 485px;
+    padding:20px;
+    border-style: solid;
+    border-color: black;
+    
   }
+  
