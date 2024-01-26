@@ -1,0 +1,70 @@
+.container{
+    display:grid;
+    grid-template-rows: 200px 150px;
+    grid-template-columns: 20% 13% 1fr 1fr;
+    font-size: 25px;
+    grid-template-areas: 
+    "logo header header header"
+    "aside1 aside1 main aside2";
+    text-align: center;
+}
+
+.header{
+    grid-area:header;
+    border-color: blue;
+    border-width: 10px;
+    border-style: solid;
+    color:blue;
+    padding:25px;
+    font-style: italic;
+    font-size: 50px;
+    padding-top:50px;
+}
+
+.aside1{
+    grid-area:aside1;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    padding:25px;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.aside2{
+    grid-area:aside2;
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+    color:red;
+    padding:25px;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.main{
+    grid-area:main;
+    border-color: orange;
+    border-width: 10px;
+    border-style: solid;
+    color:orange;
+    padding:25px;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.logo{
+    grid-area:logo;
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+    color:red;
+    padding:25px;
+    font-style: italic;
+    font-size: 50px;
+    padding-top:50px;
+}
+
+
+
+
