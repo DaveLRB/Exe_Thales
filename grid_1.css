@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.header{
+header{
     grid-area:header;
     border-color: blue;
     border-width: 10px;
