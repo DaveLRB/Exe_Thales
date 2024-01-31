@@ -15,10 +15,10 @@ header{
     border-width: 10px;
     border-style: solid;
     color:blue;
-    padding:25px;
+    padding:50px 25px 25px 25px;
     font-style: italic;
     font-size: 50px;
-    padding-top:50px;
+    text-align: center;
 }
 
 .aside1{
